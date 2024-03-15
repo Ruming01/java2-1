@@ -11,3 +11,4 @@
     * OpenJDK 설치 -> 시스템 환경변수 설정 -> eclipse (IDE) 설치
 
     * 이클립스에 JDK 등록 (보통 자동으로 됨)
+4. VS CODE JAVA 구축
