@@ -1,5 +1,10 @@
 # 전유빈 202230232
 
+
+## 3월 22일 강의
+1. 
+
+
 ## 3월 15일 강의
 1. 깃허브 리포지토리 생성
 
@@ -12,3 +17,17 @@
 
     * 이클립스에 JDK 등록 (보통 자동으로 됨)
 4. VS CODE JAVA 구축
+~~~ java
+public class Hello {
+    public static void main(String[] args) {
+        System.out.println("Hello!!");
+    }
+}
+~~~
+~~~ java
+public class test {
+    public static void main(String[] args) {
+        System.out.println("test Hello");
+    }
+}
+~~~
