@@ -9,7 +9,7 @@
 
 ### static과 non-static 특성
 
-![image](/java2-1/image/staticNonstatic.png)
+![image](./image/staticNonstatic.png)
 
 ### static 멤버 사용
 * 클래스 이름으로 접근 가능
