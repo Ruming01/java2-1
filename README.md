@@ -1,7 +1,52 @@
 # 전유빈 202230232
 
+## 4월 12일 강의
+
+### static
+* static 멤버는 클래스당 하나만 생성
+* 객체들에 의해 공유됨
+* C의 전역 변수
+
+### static과 non-static 특성
+
+![image](/java2-1/image/staticNonstatic.png)
+
+### static 멤버 사용
+* 클래스 이름으로 접근 가능
+~~~ java
+    staticSample.m;
+    staticSample.f();
+~~~
+* non-static 멤버는 클래스 이름으로 접근 안 됨
+* static은 클래스 이름으로, non-static은 객체 이름으로 호출
+
+### Static 메소드의 제약 조건
+* static 메소드는 오직 static 멤버만 접근 가능
+    * 객체가 생성되지 않은 상황에서도 static 메소드는 실행될 수 있기 때문에, non-static 멤버 활용 불가
+    * non-static 메소드는 static 멤버 사용 가능
+* static 메소드는 this 사용 불가
+    * static 메소드는 객체 없이도 사용 가능하므로, this 레퍼런스 사용할 수 없음
+
+### fimal 클래스와 메소드
+* final 클래스 - 더 이상 클래스 상속 불가능
+
+
+### 상속
+* 객체 지향 상속
+
+### 클래스 상속과 객체
+* 상속 선언
+    * extends 키워드로 선언
+        * 부모 클래스를 물려받아 확장한다는 의미
+    * 부모 클래스 -> 슈퍼 클래스 (super class)
+    * 자식 클래스 -> 서브 클래스 (sub class)
+
+
+
 ## 4월 5일 강의
-2차원 배열
+
+### 2차원 배열
+
 * 2차원 배열의 선언
     ~~~ java
     int array [][];
