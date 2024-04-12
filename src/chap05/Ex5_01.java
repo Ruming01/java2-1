@@ -1,3 +1,4 @@
+package chap05;
 public class Ex5_01 {
     public static void main(String[] args) {
         point p = new point();

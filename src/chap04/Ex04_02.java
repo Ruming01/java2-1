@@ -1,3 +1,4 @@
+package chap04;
 import java.util.Scanner;
 
 class Rectangle {
